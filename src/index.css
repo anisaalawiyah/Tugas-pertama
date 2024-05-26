@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Mengisi seluruh tinggi layar */
-  background-color: #f0f0f0; /* Warna latar belakang untuk kontras */
+  height: 100vh;
+  background-color: #f0f0f0; 
 }
 
 .container {
@@ -13,7 +13,7 @@
   text-align: center;
   padding: 15px;
   border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 .container h1{
   color: aqua;
@@ -46,14 +46,14 @@
 .hobby {
   font-weight: bold;
   border-radius: 10px;
-  margin: 5px; /* Mengganti margin kiri dengan margin seragam */
+  margin: 5px; 
   background: aqua;
-  color: black; /* Warna teks */
-  padding: 10px; /* Menambahkan padding */
-  border: none; /* Menghilangkan border */
-  cursor: pointer; /* Mengubah kursor saat dihover */
+  color: black;
+  padding: 10px; 
+  border: none;
+  cursor: pointer; 
 }
 
 .hobby:hover {
-  background-color: rgb(75, 94, 118); /* Warna saat dihover */
+  background-color: rgb(75, 94, 118);
 }
