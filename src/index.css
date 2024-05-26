@@ -1,0 +1,59 @@
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Mengisi seluruh tinggi layar */
+  background-color: #f0f0f0; /* Warna latar belakang untuk kontras */
+}
+
+.container {
+  height: auto;
+  width: 300px;
+  background-color:white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+}
+.container h1{
+  color: aqua;
+  font-size: 4vh;
+}
+.bungkus {
+  align-items: center;
+  background-color: rgb(187, 189, 189);
+  padding: 15px;
+  border-radius: 9px;
+
+}
+
+.h1 {
+  font-size: 4vh;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.img {
+  width: 90px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.bungkus p{
+  font-weight: bold;
+  color: black;
+}
+
+.hobby {
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 5px; /* Mengganti margin kiri dengan margin seragam */
+  background: aqua;
+  color: black; /* Warna teks */
+  padding: 10px; /* Menambahkan padding */
+  border: none; /* Menghilangkan border */
+  cursor: pointer; /* Mengubah kursor saat dihover */
+}
+
+.hobby:hover {
+  background-color: rgb(75, 94, 118); /* Warna saat dihover */
+}
